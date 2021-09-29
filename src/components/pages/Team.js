@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../App.css';
 import '../team.css';
+import Footer from '../Footer';
 
 export default function Team() {
   return(
@@ -361,6 +362,7 @@ export default function Team() {
             </div>
         </div>  
     </div>
+    <Footer />
     </div>
   )
 }
