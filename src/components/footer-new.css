@@ -15,6 +15,7 @@ footer h1{
     padding: 2px 0 2px 0;
     line-height: 1;
     font-weight: 300;
+    text-align: left;
 }
 footer p{
     color: #e0e1e4ad;
@@ -36,7 +37,7 @@ footer p{
     font-family: "Open Sans", sans-serif;
     text-align: center;
     font-size: 14px;
-    padding: 20px;
+    padding: 20px 0;
 }
 
 /* ----------------------------------------------------- */
