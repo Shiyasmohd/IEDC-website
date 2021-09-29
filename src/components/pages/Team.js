@@ -78,6 +78,9 @@ export default function Team() {
             </div>  
         </div>
         <div class="team-container">
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
         <h1>Assistant Officers</h1>
         <div class="row">
             <div class="member-1">
@@ -219,6 +222,7 @@ export default function Team() {
         </div>  
     </div>
     <div class="team-container">
+    
         <h1>Media and Documentation</h1>
         <div class="row">
             <div class="member-1">
@@ -260,9 +264,7 @@ export default function Team() {
         </div>  
     </div>
     <div class="team-container">
-    <div id="stars"></div>
-      <div id="stars2"></div>
-      <div id="stars3"></div>
+    
         <h1>Department Representatives</h1>
         <div class="row">
             <div class="member-1">
