@@ -1,3 +1,7 @@
+:root{
+  --bgHeight: 340px;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -7,7 +11,7 @@
 
 .home,
 .services,
-.products,
+.events,
 .sign-up {
   display: flex;
   height: 90vh;
@@ -25,13 +29,14 @@
   font-size: 100px;
 }
 
-.products {
+.events {
   background-image: url('/images/img-1.jpg');
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+  height: var(--bgHeight);
 }
 
 .sign-up {
