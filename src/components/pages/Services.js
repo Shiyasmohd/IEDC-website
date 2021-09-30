@@ -4,10 +4,12 @@ import '../landing.css';
 import '../question.css';
 import ArchLogo from '../ArchLogo';
 import Footer from '../Footer';
+import ImageSlider from '../ImageSlider';
 
 export default function Services() {
   return (<div>
       <ArchLogo/>
+      <ImageSlider/>
         <div class="landing-vision">
             <div class="landing-vision-container">
                 <h1 >Vision</h1>
