@@ -1,0 +1,39 @@
+.top-img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(/images/Arch-logo.jpg) ;
+    text-transform: uppercase;
+    text-align: center;
+}
+.top-img::before {
+    content: "";
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+ .top-img h1{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+ }
+ .top-img p{
+    color: #fff;
+    font-size: 14px;
+    font-family: "Poppins", sans-serif;
+    font-style: italic;
+}
+.top-txt{
+    width: 100%;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+
+}

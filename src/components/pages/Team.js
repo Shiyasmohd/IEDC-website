@@ -1,11 +1,13 @@
 import React from 'react';
 import '../../App.css';
 import '../team.css';
+import ArchLogo from '../ArchLogo';
 import Footer from '../Footer';
 
 export default function Team() {
   return(
     <div>
+    <ArchLogo/>
     <div class="team-container">
     <div id="stars"></div>
       <div id="stars2"></div>
@@ -140,6 +142,9 @@ export default function Team() {
         </div>  
     </div>
     <div class="team-container">
+    <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
         <h1>Executive Members</h1>
         <div class="row">
             <div class="member-1">
@@ -222,7 +227,9 @@ export default function Team() {
         </div>  
     </div>
     <div class="team-container">
-    
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
         <h1>Media and Documentation</h1>
         <div class="row">
             <div class="member-1">
@@ -264,7 +271,9 @@ export default function Team() {
         </div>  
     </div>
     <div class="team-container">
-    
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
         <h1>Department Representatives</h1>
         <div class="row">
             <div class="member-1">
@@ -364,7 +373,7 @@ export default function Team() {
             </div>
         </div>  
     </div>
-    <Footer />
+    <Footer/>
     </div>
   )
 }
