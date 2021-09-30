@@ -10,6 +10,7 @@ const ImageSlider = () => {
       <img src="/Images/img-2.jpg" className="sliderimg"/>
       <img src="/Images/img-3.jpg" className="sliderimg"/>
       <img src="/Images/img-4.jpg" className="sliderimg"/>
+      <img src="/Images/img-4.jpg" className="sliderimg"/>
     </AliceCarousel>
     </div>
   );
