@@ -2,9 +2,12 @@ import React from 'react';
 import '../../App.css';
 import '../landing.css';
 import '../question.css';
+import ArchLogo from '../ArchLogo';
+import Footer from '../Footer';
 
 export default function Services() {
   return (<div>
+      <ArchLogo/>
         <div class="landing-vision">
             <div class="landing-vision-container">
                 <h1 >Vision</h1>
@@ -24,7 +27,7 @@ export default function Services() {
             </div>
         </div>
     </div>
-    
+    <Footer/>
     </div>
   );
 }

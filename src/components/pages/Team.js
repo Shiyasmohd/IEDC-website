@@ -374,6 +374,7 @@ export default function Team() {
         </div>  
     </div>
     <Footer/>
+    <ArchLogo/>
     </div>
   )
 }

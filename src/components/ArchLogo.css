@@ -1,6 +1,6 @@
 .top-img{
     width: 100%;
-    height: 100%;
+    height: 80vh;
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
@@ -20,7 +20,7 @@
   }
  .top-img h1{
     color: #fff;
-    font-size: 30px;
+    font-size: 27px;
     font-weight: 700;
     font-family: "Poppins", sans-serif;
  }
@@ -29,6 +29,8 @@
     font-size: 14px;
     font-family: "Poppins", sans-serif;
     font-style: italic;
+    margin-top: 15px;
+    padding-bottom: 10px;
 }
 .top-txt{
     width: 100%;
@@ -36,4 +38,34 @@
     position: absolute;
     bottom: 0;
 
+}
+
+/* -------------------------------------------------- */
+@media only screen and (min-width:768px) {
+
+    .top-img h1{
+        font-size: 35px;
+     }
+
+     .top-txt{
+         bottom:70px;
+     }
+}
+
+/* -------------------------------------------------- */
+@media only screen and (min-width:1000px) {
+
+    .top-img{
+        height: 90vh;
+    }
+
+    .top-img h1{
+        font-size: 52px;
+     }
+
+     .top-txt{
+         bottom:10px;
+         width:80%;
+         margin-left: 10%;
+     }
 }
