@@ -68,6 +68,45 @@ function Cards() {
               contact='phno'
             />
             </div>
+            <div className='card'>
+            <CardItem
+              src='images/img-2.jpg'
+              text='event2'
+              label='Category'
+              path='/services'
+              title='Event Title'
+              date='00 month 2021'
+              time='00:00'
+              venue='NA'
+              contact='phno'
+            />
+            </div>
+            <div className='card'>
+            <CardItem
+              src='images/img-2.jpg'
+              text='event2'
+              label='Category'
+              path='/services'
+              title='Event Title'
+              date='00 month 2021'
+              time='00:00'
+              venue='NA'
+              contact='phno'
+            />
+            </div>
+            <div className='card'>
+            <CardItem
+              src='images/img-2.jpg'
+              text='event2'
+              label='Category'
+              path='/services'
+              title='Event Title'
+              date='00 month 2021'
+              time='00:00'
+              venue='NA'
+              contact='phno'
+            />
+            </div>
           
             <div className='card'>
             <CardItem
