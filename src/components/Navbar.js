@@ -29,7 +29,7 @@ function Navbar() {
       <nav className='navbar'>
         <div className='navbar-container'>
           <Link to='/' className='navbar-logo' onClick={closeMobileMenu}>
-            TRVL
+            IEDC
             <i class='fab fa-typo3' />
           </Link>
           <div className='menu-icon' onClick={handleClick}>
@@ -50,6 +50,15 @@ function Navbar() {
                 Services
               </Link>
             </li>
+            <li className='nav-item'>
+              <Link
+                to='/startups'
+                className='nav-links'
+                onClick={closeMobileMenu}
+              >
+                Startups
+              </Link>
+            </li> 
             <li className='nav-item'>
               <Link
                 to='/events'
