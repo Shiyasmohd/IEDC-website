@@ -1,13 +1,11 @@
 import React from 'react';
 import '../../App.css';
 import '../team.css';
-import ArchLogo from '../ArchLogo';
 import Footer from '../Footer';
 
 export default function Team() {
   return(
     <div>
-    <ArchLogo/>
     <div class="team-container">
     <div id="stars"></div>
       <div id="stars2"></div>
