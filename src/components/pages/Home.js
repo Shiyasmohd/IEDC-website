@@ -1,17 +1,18 @@
 import React from 'react';
 import '../../App.css';
-import Cards from '../Cards';
-import HeroSection from '../HeroSection';
+import ArchLogo from '../ArchLogo';
 import Footer from '../Footer';
+import ImageSlider from '../ImageSlider';
+import Vision from '../Vision';
+import Question from '../Question';
 
-function Home() {
-  return (
-    <>
-      <HeroSection />
-      <Cards />
-      <Footer />
-    </>
+export default function Home() {
+  return (<div>
+        <ArchLogo/>    
+        <Vision/>
+        <ImageSlider/>
+        <Question/>
+        <Footer/>
+    </div>
   );
 }
-
-export default Home;

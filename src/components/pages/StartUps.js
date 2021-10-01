@@ -6,7 +6,7 @@ import Footer from '../Footer';
 export default function StartUps() {
 
   return (
-   
+
     <>
      <h1 className='startups'>Startups</h1>;
       <Cards />
