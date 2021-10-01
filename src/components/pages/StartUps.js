@@ -9,7 +9,7 @@ export default function StartUps() {
 
     <>
      <h1 className='startups'>Startups</h1>;
-      <Cards />
+    
       <Footer />
     </>
   );
