@@ -1,0 +1,16 @@
+.cards_item{
+    background-color: aqua;
+    display: inline;
+    
+}
+.cards_wrap{
+    background-color: red;
+    overflow: hidden;
+    display: inline;
+    max-width: 40%;
+}
+.cards_info{
+    background-color: royalblue;
+    display: inline;
+    max-width: 54%;
+}
